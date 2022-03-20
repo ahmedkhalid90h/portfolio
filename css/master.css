@@ -1,370 +1,296 @@
-/*
-{
-  color: # ;    (لون الكلمه)
-}
-
-{
-  font-size:  ;   (حجم الكلمه)
-}
-
-{
-  backgroun-color:rgb ;   ()
-  backgroun-image: url("مكان الصوره");    ()
-  backgroun-repeat: repeat ;      (تكرار صوره الخلفيه)
-  backgroun-repeat: repeat y;      (تكرار صوره الخلفيه عمودي)
-  backgroun-repeat: repeat x ;      (تكرار صوره الخلفيه رأسي)
-  backgroun-attachment: fixed;     (الخلفيه هتمشي معاك في الاسكرول)
-  backgroun-position: left right center bottom % px;             (تمركز صوره الخلفيه)
-  backgroun-size: cover ;               (تغطيه صوره الخلفيه)
-  backgroun-size: contain ;             (حجم الصوره الطبيعي من غير تمدد)
-  backgroun-size: % px ;            (التحكم في حجم الصوره)
-}
-
-{
-  id  =  #
-  class   =  .
-}
-
-{
-.a,
-.b,
-.c,{}         (لو عايز اعمل تعديل علي اكثر من عنصر في كود واحد)
-}
-
-{
-  width: px %;      =     (تنسيق العرض)
-  max-width:px %;   =     (عرض لا يذيد عن الرقم المحدد)
-  min-width:px %;    =      (عرض لايقل عن الرقم المحدد)
-  width: fit-content;       (العرض بيكون علي اد العنصر)
-  height: px %;     =     (تنسيق الطول)
-  max-height: px %;             (طول لا يقل عن الرقم المحدد)
-  min-height: px %;            (طول يبداء عند رقم محدد)
-  line-height:160%;             (المسافه بين الكلام بالطول 160في الميه)
-}
-
-{
-overflow: hedden;         (اخفاء العنصر اللذي يكون اكبر من الطول المحدد)
-overflow: visible;                  (القيمه الافتراضيه)
-overflow: scroll;         (بتعمل اسكرول للعنصر اللي عده الطول المحدد)
-overflow: auto;           (تنسيق العنصر تلقائيا )
-overflow: x;                    ( تنسيق غرض العنصر )
-overflow-y: hidden;                   (اخفاءعنصر اكبر من الطول المحدد  وتنسيق اكرول )
-
-
-  box-shadow                                 (يعمل شادو حول البوكس وتقدر تضيف اكتر من شادو في نفس التنسيق ,)
-  box-sizing:content-box;                            (العادي)
-  box-sizing:border-box;                                (بيعمل تمدد للعنصر اللي عده الودث ويمدد الودث ويخليه جنبهم)
-
-
-  text-shadow: (طول الشادو H shadow)  ( عرض الشادو V shadow)   (حجم الضباب Blur)   ( لون الشادو color)
-  text-align: centrt right left;                    (ماكن العنصر بتاعك في النص في اليمين في الشمال)
-  direction: ltr                    (الكلام من الشمال الي اليمين)
-  direction: rtl                    (كلام من اليمين الي الشمال)
-  text-decoration: non;               (عشات تشيل الخط اللي تحت اللينك)
-  text-transform: capitalize;               (تخلي اول حرف كبتل في اي كلمه)
-  text-indent:100px;                      (مسافه 100بكسل قبل الكلام)
-  text-overflow: ellipsis;                (لو العنوان عده الودث بيعمل مكان الكلام اللي عده نقط..)
-  .a{
-  color:green;                            (لون كلمه الينك اخضر)
-text-decoration: none;                      (اشيل الخط اللي تحت الينك)
-
-
-{
-letter-spacing: 2px;          (مسافه 2 بكسل بين الاحرف)
-word-spacing: 5px;               (مسافه 5 بكسل بين الكلمات)
-}
-
-{
-  visibility: visibile;       = (اخفاء العنصر لكن هيحتظ بمكانه)
-        = (اخفاء العنصر لكن هيحتظ بمكانه)
-      }
-  cases:;           =       ()
-  display:none;       =     (اخفاء العنصر )
-  display: inline-blok;       (لو عايز العناصر بتاعت الدف جمب بعض)
-}
-
-{
-  border: top right left bottom  solid;   ( اطار حول العنصر باكثر من لون او لون موحد واكثر من نوع اطار)
-  border-radius: px %;              (الحواف الدائريه للاطار )
-  border-style: solid;        (نوع حواف البردير)
-  border-color: inherit;        (لو عايز اغير الوان جميع المربعات)
-  box-sizing:border-box;                (تنسيق العرض)
-
-}
-
-{
-  outline: 10px solid red;          (اطار ثاني حول عنصر البوردر)
-}
-
-{
-  margin: px %   top right bottom left ;       =     (تنسيق خارج البوردر )
-}
-
-{
-  padding: top right left bottom ;    (تنسيق العنصر داخل البوردر)
-  padding:20px;             (لو عايز اغير تنسيق جميع العناصر في البوردر)
-}
-
-{
-    nesting            (تعشيش)
-    div.p{}            (تجديد اي عنصر داخل الدف اسمو بي وتجاهل اي عنصر بي خارج الدف)
-}
-
-
-{
-  font-slyle:italic;                 (نوع الخط كبيروصغير مائل)}
-  font-weight:bold;                   (لو عايز الخط تقيل)
-{
-
-{
-  cursor: pointer;                (لوع عايز تغير شكل الموس لما يروح علي لينك او ظرار)
-}
-
-body{
-  font-family: Arial,Helvetica, sans-sans-serif;
-}
-}
-
-{
-  fonts google,com            (لبنك صفحه فيها انواع كتير من الخطوط)
-}
-
-{
-  float:  right  , left  , both;        ( تحديد وتنسيق العرض)
-}
-
-
-
-
-{
-  opacity: px % 0.0;          (تنسيق الوان الخلفيه مع العنصر)
-}
-
-{
-  position: relative;           (تنسيق اي عنصر داخل الاب الديف)
-  z-index:1 ,2,3,..;                (يستخدم مع البوزيشن )
-}
-
-{
-  list-style-type:;
-  list-style-image:url;
-
-}
-
-
-
-  any element{
-  transition-duration:3s;           (لو عايز الحاجه اللي عملت عليها هوفر تحصل سلو موشن او تحصل خلال 3)
-  transition-delay: 2s;                  (لما تعمل عليها هوفر هتبدا تحصل بعد 2ث)
-  transition-property: all;              (كل الحاجات اللي كتبها في الهوفر تحصل مع بعض)
-  transition-timing-function: ease;                  (ابدء بطيئ في النص سريع في الاخر بطيئ)
-  transition:all 1s ease;     (بدل ما تعمل كزه كود ده بيجمه الاكواد كلها اول حاجه بروبرتي -الديوريشن-انوعاها اي الايز -الديلاه )  
-  .a:hover{ 
-  color: red;                 (لو عايز اغير لون اللينك لما الموس يروح عليه)
-
-
-  margin:auto;         ( center page)
-
-
-  :root{--mainPadding  mainWidth  mainMar...  }   (var اللي انت عملته) التحكم في كل شئ في الصفحه لما تحط الvar اللي انت عملته)
-  var(mainPadding)
-  
-
-  display:flex;                           (يستخم في العنصر الاب ) (float:left;)و(overflow) (يجعل العناصر جنب بعضه وتتخلى عن )
-  flex-direction: row;           ( العادي مش بيعمل حاجه وبيعمل امتداد)
-  flex-direction: row-reverse;   ( يعكس الكلام)
-  flex-direction: column;        ( تنظيم العناصر عمودي فةق بعض)
-  flex-direction: column-reverse;     ( يعكس الكلام)    
-  flex-wrap:wrap;                     (لو اي عنصر عده الودث المحدد ينزل في الصف الثاني)
-  flex-wrap:wrap;-reverse;             (بدل ما تنزل للصف الثاني يطلع للصف الاول ويخلي الصف العادي الصف الثاني) 
-  flex-flow: flex-direction + flex-wrap                (الفليكس فلو دي بتجمع الخصيتين مع بعض)
-  flex-flow: row-reverse wrap ;                          (مثال)
-
-  flex-grow:1;                             (هيخلي كل العناصر تاخد فل ودث )
-  flex-grow:1;  (لو انا حططها في عنصر من العناصر يبقي كل العناصر ثابته معده العنصر اللي فيه الكود ده هيكبر ويجيب اخر الودث)
-  flex-shrink:1;          (العادي مش بيعمل حاجه)
-  flex-shrink:1;          (لو حطيطه جوه عنصر من العناصر اول ما اصغر الودث الاب هو اول واحد هيظغر دون كل العناصر)
-  flex-basis:px % width + height ;
-  (الكود ده هيغنيني عن الطول والعرض لو كان الكنتينر طولي وانا كتبت الكود ده وطيط رقم هياخد الطول اللي انا كتبته ولو الكونتينر كان عرضي  هياخد القيمه اللي حطتها)
-  flex-basis:px % width + height    (فليكس باسس لو الكونتينر بالعرض يبقه هياخد الرقم اللي حطيطه ويحطه في عرض العنصر اللي فيه الكود)
-  flex-basis:px % width + height     (ولو الكونتينر طولي يبقي هياخد الرقم اللي حطيطه وهيعمله في العنصر)
-  flex:flex grow + flex shrink + flex basis
-  (الفلكس بس اول حاجه هيكون فلكس جرو اللي بيزود العرض - الفلكس شرينك اللي بيصغر العنصر بتاعه - الفلكس بيسيساللي بينسق العرض لو الكنتينر بالعرض وبينسق الطول لو الكنتينر طولي)
-
-
-
-  order:4;      (لما يكون في عناصر كتير في نفس الصف وعايز العنصر الاول يبقي الرابع هكتب الكود ده في العنصر اللي هيروح الرابع)
-
-  justify-content: flex-start;                  (العادي)
-  justify-content: flex-end;                         (لو في حاجه عدت الودث ونزلت تحت ممكن تحركها بالكود ده وتخليها تبدا من اليمين للشمال)
-  justify-content: center;                           ( يخليها في النص بس عمودي او يوسطها+)
-  justify-content: space-between;                         (يشوف اي اللي ناقص من الودث ويوزعه مسافه بين العناصر بس)
-  justify-content: space-around;                         (يشوف ايه اللي ناقص من عرض الودث ويوزع مسافه قبل وبعد كل عنصر)
-  
-  align-items:center;    (لو ا
-  
-  نا مدي طول محدد لعنصر واحد بس وباقي العناصر مش مديها طول يبقي هيوسط العناصر التنيه في نص الطول اللي في عنصر واحد)
-  align-items:flex-start;         (العنصر اللي مديله طول بس اللي هياخد الطول باقي العناصر مش هتاخد الطول معاه)
-  align-items:flex-end;           (العنصر اللي مديله طول بس اللي هياخد الطول وهيخلي باقي العناصر مش هتاخد الطول معاه وهتكون اعلى منه ) 
-  align-items:center;                   (توسيط الكلام في نص الكنتينر)
-  align-content:flex-start;       (بياخد كل العناصر ويتجاهل الطول المحدد له ويجعلهم ف الاعلى)
-  align-content:flex-end;         (بياخد كل العناصر ويتجاهل الطول المحدد له ويجعلهم ف الاسفل)
-  align-content:stretch;          (بيعمل تمدد طوليا للعناصر اللي في الصف الالول الي اللي في الصف الثاني)
-  align-content:space-between     (مسافه بين الصف الاول والصف الثاني او مسافه بين الكنتينر الاول والكتتينر الثاني)
-  align-content:space-around;     (مسافه بين الصف الاول والصف الثاني او مسافه بين الكنتينر الاول والكتتينر الثاني)
-  align-self: flex-start;         (لو العناصر كلها متمدده طويلا او عرضيا بسبب عنصر واحد لو حطيط الكود ده في اي عنصر هيرجع لطبعته الطول العادي وهيبقي في الاول)
-  align-self: flex-end;           (لو العناصر كلها متمدده طويلا او عرضيا بسبب عنصر واحد لو حطيط الكود ده في اي عنصر هيرجع لطبعته الطول العادي وهيبقي في الاخر)
- 
-
-  color:red  !important  ;             (يعني الكود ده هو اللي هيحصل وهيغطي علي كل الاكواد حتي لو انلين)
-
-
-  filter: grayscale(100%);    (يستخدم مع الصور ويغير لون الصوره الي ابيض واسود ونستخدم معاه هوفر عشان لما نعمل هوفر عليه يرجع لطبعتو)
-  .pa:hover{filter: grayscale(0);}              (الهوفر الخاص بالفلتر عندما ياتي الموس عليه يرجع الي طبيعتو)
-  filter: blur(10px);                  (بتعمل ضباب علي الصوره لما تعمل هوفر)
-  .pa:hover{filter: blur(0);}                     (بتعمل ضباب علي الصوره لما تعمل هوفر)
-
-
-  background-image: linear-gradient(  323deg, hsl(141deg 83% 31%), #232393, #c0f)     (تلوين خلفيه العنصر بلونبن في معض)
-  opacity:2.5;                                             (بتتجط في الهوفر وبتقلل الجوده بتاعت الصوره او العنصر)
-
-  display: grid;
-  grid-template-columns: auto % px em  1fr ;         خاصيه مثل الفلكس تنسيق طول العمدان للعناصر)(الاول 100بكسل العمود الثاني 100بكسل وهاكزه))
-  grid-template-columns:repeat( 5, auto):         (اختصارها تو مكان هيكون عدد الاعمده والتنيه تنسيقه جوه الاعمده)
-  grid-template-columns:repeat( auto-fill, 1fr or ,px):         (لو عايز يكون قد الشاشه لكل الاحجام ويعمل عدد العمدان طلقائي)
-  grid-template-columns:repeat( auto-fill, minmax(200px, 1fr):  (لوعايز يكون قد كل الشاشات ويعمل العمدان طبقائي ولو اتبقي مساحه فضيه المينمم والمكس هيخلي العناصر تتمدد)
-  grid-template-columns: minmax (200px, 400px)repeat( 5, 1fr):                  (يبقداء من 200بكسل لحد 400 ويقدر ياخد من الفركشن عادي)
-  grid-template-rows: 100px 100px 100px;         (تنسيق الصفوف من طول الصف بتاع العناصر واول خانه للصف الاول وتاني خانه للفص الثاني وهاكزه)
-  grid-template-areas:;  ( في الكود ده هنقسم عدد الاعمده اللي في الربيت ولازم يوكن 1اف ار لكل عنصر في ص الاتش تي ام ال وكل صف ليه عدد لاعمده اللي مكتوب فب الربيت )
-  grid-area: el name in grid templet area(هنكتب اسم الكلاس او العنصر اللي هيتنسق ف الاعمده وهنكتب وبعدين هنكتب جريد اريا وهنكتب اسم العنصر اللي سمناه في الجريد تمبلت اريا)
-  auto          (خاصيه اوتو بتاخد طول وعرض علي قد العنصر اللي جواها بس )
-  1fr           (خاصيه ال اف ار دي بتاخد الطول والعرض اللي باقي من الكونتينر كله)
-
-  grid-row-start: 1;
-  grid-row-end: span 2;
-  grid-row: 1/span 2;  (الاختصار بتعهم تنسيق العرض لو عايز العنصر اللي واقف عليه جوه الدف الاب ياخد مكان اكثر من عنصر عرضي يستخدم في التنسيق )
-
-  grid-column: 2/span 2;
-  grid-column-start: 2;
-  grid-column-end: span 2;  (الاختصار بتعهم تنسيق العرض لو عايز العنصر اللي واقف عليه جوه الدف الاب ياخد مكان اكثر من عنصر طولي يستخدم في التنسيق )
-
-  grid-row-start: 2;
-  grid-column-start: 2;
-  grid-row-end: 3;
-  grid-column-end: 6;
-  grid-area: 2/2/5/6;
-
-
-  row-gap: 10px;           (فواصل بين كل العناصر عرضي)
-  column-gap: 10px;        (فواصل بين كل العناصر طولي)
-  gap:10px 10px;            (اختصار تنسيق الفواصل الاول عرض والثاني طول 1رو 2كولم)
-
-
-  caret-color:red;                           (الكود ده بتاع تغير اللون بتاع الحاجه اللي بتظهر قبل الكتابه)
-  opacity:2.5;                                             (بتتجط في الهوفر وبتقلل الجوده بتاعت الصوره او العنصر)
-  
-
-  transform:scale x(1.5)                (يمدد العنصر ويخليه يتمدد عرضي)
-  transform: scale y(1.5);              (يمدد العنصر ويخليه يتمدد طولي)
-  transform: scale(1, 1.5);  (ممكن يتعمل بالسالب و الموجب) (يمدد العنصر ويخليه يتمدد الاول عرضي ,التانيه طولي ولو سبتها فضيه هياخد القيمه الافتراضيه صفر)
-  transform:translate(px %, px %);                (حيحرك البوكس كلو الاوله القيمه اكس والتانيه الفيمه واي بس هيحرك البوكس كلو)
-
-  transform:rotate(70deg);                       (بيخلي العنصر يلف 360درجه )
-  transform:translate(px em %)
-
-  transform:skew y(60deg);               
-  transform:skew x(80deg);
-
-  transform:matrix(  scaleX(), skewY() , skewX(), scaleY() , translateX(), translateY()  ) ;  (اختصار كل ده)
-  transform:  translateX(), translateY() scaleX(), skewY() , skewX(), scaleY() , ;     (اختصار كل ده)
-  
-
-
-  transform:rotate(185 deg)                     (يخلي البوكس يلف نص لفه  وممكن يجي بالسالب)
-  transform: rotate3d(1, 1, 1, 24deg);    (يخلي البوكس يلف نص لفه  وممكن يجي بالسالب 3ديD)(بيحط جواه ثلاث قيم الاول اكس التاني واي الثالثه الزد بد كده الديج)
-
-  absolute               (في الاب)
-  relative          (في العنصر)
-
-
-
-
-*/
-
-body{
-  font-family: 'Open Sans', Arial, sans-serif;
-  line-height: 35px;
-}
- 
-.section0{
-  width: 300px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  min-width: 290px;
-  border-right: solid 5px rgba(0, 22, 22, 0.4);
-  line-height: 50px;
-  position: fixed;
-}
-
-.father{
-  margin-left: 310px;
-  padding: 20px;
-} 
-code{
-  display: block;
-  background-color: grey;
-  padding: 5px;
-  white-space: pre-line;
-  margin: 10px;
-}
-.section0 li{
-  border-top: 1px solid;
-  width: 100%;
-}
-.section0 ul{
-  list-style: none;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
   padding: 0;
-  height: 90%;
+  box-sizing: border-box;
+ /*  scroll-behavior: smooth;   */ /* i don't no */
 }
-.section0 a{
-  text-decoration: none;
-  color: #4d4e53;
-  padding: 10px 30px;
-}
-.header{
-  font-size: 30px;
-  text-align: center;
-  font-weight: thin;
+header{
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
 } 
-
-li{
-  color: #4d4e53;
+.logo{
+  text-decoration: none;
+  color: #3a6cf4;
+  text-transform: uppercase;
+  font-family: 700;
+  font-size: 1.8em ;
+}
+.navigtion .nav-a{
+  text-decoration: none;
+  color: #3a6cf4;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1em;
+  margin: 30px;
+}
+.navigtion a:hover{
+  color: #601cfc;
+}
+.main{
+  padding: 100px 200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(img/pexels-photo-6633920.jpeg)  no-repeat ;
+  background-size:cover ;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
-p{
-  color: #4d4e53;
+.main .main-h2{
+  color: white;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main .main-h2 .main-span{
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 2em;
+  font-weight: 600;
+  color: #4e9eff;
+}
+.main .main-h3{
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+.main-bottom{
+  color:white;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: .9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px ;
+  transition: 0.8s ease;
+}
+.main-bottom:hover{
+  background-color: #3a6cf4;
+  transform: scale(1.1);
+}
+.socil-icons .a{
+  color: white;
+  font-size: 1.7em;
+  padding-right: 30px;
+  text-decoration: none;
 }
 
-@media only screen and (max-width: 815px) {
-  /* For mobile phones: */
-  #navbar ul {
-    border: 1px solid;
-    height: 207px;
+.cards{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.cards .title{
+  color: #3a6cf4;
+  font-size: 2.5em;
+  font-weight: 800;
+  margin-bottom: 4.0em;
+}
+
+.content-card{
+  display: flex;
+  flex-wrap:wrap ;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-card .card {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 25px rgba(1, 1, 1, 50%);
+  margin-left: 3.5em;
+  transition: 0.8s ease;
+  border-radius: 10px;
+}
+
+.content-card .card img{
+  width: 100%;
+  height: 90%;
+  padding: 5px;
+}
+.card .p-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #303841;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+ .card:hover .code {
+  color: #ff7f50;
+  margin: 0 10px;
+}
+
+.code {
+  color: #303841;
+  transition: color 0.3s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.content-end{
+  background: url(img/3d.webp) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.content-end h1{
+  color: #3a6cf4;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+ .content-end .title span{
+  color: white;
+  font-size: 1.0em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.icon-contact{
+  display: flex;
+  flex-wrap:wrap ;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.icon-contact .at{
+  width: 19.25em;
+  background-color: transparent;
+  border-radius: 60%;
+  padding: 25px;
+  margin: 100px;
+  transition: 0.7s ease;
+}
+
+.icon-contact .at:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 18px rgb(224, 224, 224);
+}
+
+.at  i{
+  font-size: 8.0em;
+  color: #3a6cf4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.at h2,
+.at p{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-style: italic;
+}
+
+
+@media screen and (max-width: 576px){
+  .header{
+    padding: 12px 20px;
   }
-
   
-@media only screen and (max-width: 400px) {
-  #main-doc {
-    margin-left: -10px;
+  .logo{
+    font-size: 1em;
+  }
+  
+  .navigtion .nav-a{
+    margin: 10px;
+    font-size: 0.8em;
   }
 
-  code {
-    margin-left: -20px;
-    width: 100%;
-    padding: 15px;
-    padding-left: 10px;
-    padding-right: 45px;
-    min-width: 233px;
+  .main{
+    padding: 10px 20px;
   }
+
+  .main .main-h2 {
+    font-size: 1em;
+  }
+
+  .main .main-h2 .main-span{
+    font-size: 1.4em;
+  }
+
+  .main .main-h3{
+    font-size: 1.5em;
+  }
+
+  .main-bottom{
+   margin: 30px;
+   font-size: 0.9em;
+  }
+  .content-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .content-card .card {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    padding: auto;
+    margin: auto auto 50px auto; 
+  }
+
+
+  .content-end{
+    width: 100%;
+    height: 140vh;
+  }
+  
+  .media{
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+}
+
+
+@media (min-height:731px) {
+  .cards .title{
+    margin-bottom: 1.8em;
+  }
+
+  .cards{
+    height: 165vh;
+  }
+  
 }
