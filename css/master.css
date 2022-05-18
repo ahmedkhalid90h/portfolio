@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;  
 }
 header{
   background-color: white;
@@ -294,4 +293,8 @@ header{
     height: 165vh;
   }
   
+}
+
+html{
+  scroll-behavior: smooth; 
 }
